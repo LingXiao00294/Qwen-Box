@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.install-record.txt
+CYTHON_DEPS
+
+# PyInstaller
+#  If you're using PyInstaller, since it builds in the dist folder
+#  You can also include the build folder if needed.
+# dist/
+# build/
+
+# Installer logs
+pip-log.txt
+pip-win-python.log
+pip.ini
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.db
+*.sqlite3
+*.sql
+*.sqlite
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# venv
+venv/
+ENV/
+.env
+.venv
+
+# VS Code
+.vscode/
+
+# JetBrains (包括 PyCharm 自身)
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebook checkpoint
+.ipynb_checkpoints/
+
+# Environments
+env/
+virtualenv/
+
+# Docker
+.DS_Store
+
+# Buildout
+parts/
+bin/
+scripts/
+downloads/
+.buildozer/
