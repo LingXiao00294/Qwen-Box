@@ -1,0 +1,14 @@
+{
+    "title": "新对话",
+    "system_prompt": "你是一个有帮助的AI助手。",
+    "messages": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ]
+}

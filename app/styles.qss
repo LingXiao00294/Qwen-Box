@@ -1,0 +1,67 @@
+/* app/styles.qss */
+
+/* QTextEdit - 聊天记录区域 */
+#ChatArea {
+    font-family: 'Microsoft YaHei', 'SimSun', Consolas, monospace, sans-serif;
+    font-size: 14px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+/* QLineEdit - 输入框 */
+#InputBox {
+    padding: 8px;
+    font-size: 14px;
+    background-color: #3c3c3c;
+    color: white;
+    border: 1px solid #555555;
+}
+
+/* QPushButton - 发送按钮 */
+#SendButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+/* QLabel - 状态标签 */
+#StatusLabel {
+    color: gray;
+    font-size: 12px;
+}
+
+/* QLabel - Top P 标签 */
+#TopPLabel {
+    color: #cccccc; /* 浅灰色，以便在深色背景下可见 */
+    font-size: 12px;
+}
+
+/* QSlider - Top P 滑动条 */
+#TopPSlider {
+    /* 可以根据需要添加特定样式 */
+}
+
+/* 流式输出字符的样式 */
+.streaming-char {
+    opacity: 0; /* 初始不可见 */
+    /* QTextEdit对CSS动画的支持有限，这里定义一个基础样式 */
+    /* 实际动画效果将通过Python代码（QTimer和逐步修改HTML）模拟 */
+    display: inline-block; /* 确保span是行内块，以便transform等属性可能生效（尽管在QTextEdit中支持不佳）*/
+}
+
+/* 一个尝试性的动画定义，QTextEdit可能不完全支持 */
+@keyframes धीरे-धीरे-दिखाओ {
+    from { opacity: 0; transform: translateY(5px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.streaming-char-animated {
+    animation-name: धीरे-धीरे-दिखाओ;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; /* 保持动画结束状态 */
+    animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "默认配置",
+  "api_key": "sk-8272ccc8ed9140d39eacece4ab6f25bb",
+  "api_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "models": [
+    "qwen-plus-latest",
+    "qwen-vl-plus-latest"
+  ]
+}

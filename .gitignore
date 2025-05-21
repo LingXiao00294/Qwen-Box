@@ -94,3 +94,13 @@ bin/
 scripts/
 downloads/
 .buildozer/
+
+#Cursor
+.cursor/
+.cursorrules
+
+# Trae
+.trae/
+
+# Test
+*test*
